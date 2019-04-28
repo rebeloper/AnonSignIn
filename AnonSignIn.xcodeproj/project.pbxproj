@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482EA36B9A0DBFFFA7D04140 /* Pods_AnonSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEF7DA94CC2D2B718BE25B3 /* Pods_AnonSignIn.framework */; };
 		C9BD862F226C65F200B2DCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD862E226C65F200B2DCE1 /* AppDelegate.swift */; };
 		C9BD8631226C65F200B2DCE1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD8630226C65F200B2DCE1 /* RootViewController.swift */; };
 		C9BD8633226C65F300B2DCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BD8632226C65F300B2DCE1 /* Assets.xcassets */; };
 		C9BD8636226C65F300B2DCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BD8634226C65F300B2DCE1 /* LaunchScreen.storyboard */; };
+		C9BD863E226C68A900B2DCE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9BD863D226C68A900B2DCE1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FEF7DA94CC2D2B718BE25B3 /* Pods_AnonSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnonSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF085AF730F2E49A1C92643E /* Pods-AnonSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnonSignIn.debug.xcconfig"; path = "Target Support Files/Pods-AnonSignIn/Pods-AnonSignIn.debug.xcconfig"; sourceTree = "<group>"; };
 		C9BD862B226C65F200B2DCE1 /* AnonSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnonSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BD862E226C65F200B2DCE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9BD8630226C65F200B2DCE1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C9BD8632226C65F300B2DCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9BD8635226C65F300B2DCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9BD8637226C65F300B2DCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BD863D226C68A900B2DCE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7CA8F1CA615D73FFCA32C54 /* Pods-AnonSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnonSignIn.release.xcconfig"; path = "Target Support Files/Pods-AnonSignIn/Pods-AnonSignIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482EA36B9A0DBFFFA7D04140 /* Pods_AnonSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635F1DCC2A60D5F182FF16FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF085AF730F2E49A1C92643E /* Pods-AnonSignIn.debug.xcconfig */,
+				D7CA8F1CA615D73FFCA32C54 /* Pods-AnonSignIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98983B15A12DDC1243716599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF7DA94CC2D2B718BE25B3 /* Pods_AnonSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9BD8622226C65F200B2DCE1 = {
 			isa = PBXGroup;
 			children = (
 				C9BD862D226C65F200B2DCE1 /* AnonSignIn */,
 				C9BD862C226C65F200B2DCE1 /* Products */,
+				635F1DCC2A60D5F182FF16FF /* Pods */,
+				98983B15A12DDC1243716599 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +83,7 @@
 				C9BD8632226C65F300B2DCE1 /* Assets.xcassets */,
 				C9BD8634226C65F300B2DCE1 /* LaunchScreen.storyboard */,
 				C9BD8637226C65F300B2DCE1 /* Info.plist */,
+				C9BD863D226C68A900B2DCE1 /* GoogleService-Info.plist */,
 			);
 			path = AnonSignIn;
 			sourceTree = "<group>";
@@ -68,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9BD863A226C65F300B2DCE1 /* Build configuration list for PBXNativeTarget "AnonSignIn" */;
 			buildPhases = (
+				A053FA7AE4556361481C84CC /* [CP] Check Pods Manifest.lock */,
 				C9BD8627226C65F200B2DCE1 /* Sources */,
 				C9BD8628226C65F200B2DCE1 /* Frameworks */,
 				C9BD8629226C65F200B2DCE1 /* Resources */,
+				E5FDCAC6CC555486569286B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,11 +149,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BD8633226C65F300B2DCE1 /* Assets.xcassets in Resources */,
+				C9BD863E226C68A900B2DCE1 /* GoogleService-Info.plist in Resources */,
 				C9BD8636226C65F300B2DCE1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A053FA7AE4556361481C84CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnonSignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FDCAC6CC555486569286B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnonSignIn/Pods-AnonSignIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnonSignIn/Pods-AnonSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9BD8627226C65F200B2DCE1 /* Sources */ = {
@@ -268,6 +349,7 @@
 		};
 		C9BD863B226C65F300B2DCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF085AF730F2E49A1C92643E /* Pods-AnonSignIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +368,7 @@
 		};
 		C9BD863C226C65F300B2DCE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CA8F1CA615D73FFCA32C54 /* Pods-AnonSignIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

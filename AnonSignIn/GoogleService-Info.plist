@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>123026481433-5ib46r0fmaqi5df5koegpjvpln8te8sr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.123026481433-5ib46r0fmaqi5df5koegpjvpln8te8sr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAsUPNY7qOq4KHawIwsDBf5EFFtsWoGAVA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>123026481433</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Rebeloper.AnonSignIn</string>
+	<key>PROJECT_ID</key>
+	<string>anon-sign-in</string>
+	<key>STORAGE_BUCKET</key>
+	<string>anon-sign-in.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:123026481433:ios:33d853ee2e9f58a9</string>
+	<key>DATABASE_URL</key>
+	<string>https://anon-sign-in.firebaseio.com</string>
+</dict>
+</plist>
