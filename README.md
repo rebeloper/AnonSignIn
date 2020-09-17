@@ -7,3 +7,7 @@ https://www.youtube.com/watch?v=m_TyAgt762A&list=PL_csAAO9PQ8ZqOuC1khL4Sb1Reons4
 You can find all the resources for this video here:
 
 https://store.rebeloper.com/youtube-channel-resources
+
+https://www.youtube.com/watch?v=m_TyAgt762A&list=PL_csAAO9PQ8ZqOuC1khL4Sb1Reons4g3o
+
+https://www.youtube.com/watch?v=eYqHUgWNjXg&list=PL_csAAO9PQ8ZqOuC1khL4Sb1Reons4g3o&index=2
